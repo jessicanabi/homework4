@@ -51,6 +51,7 @@ links in the navigation are in the hover or focus state.*/
 
   position: absolute;
   bottom: 40px;
+  top: 40px;
   visibility: hidden;
   /*Your code here*/
 }
