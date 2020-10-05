@@ -87,7 +87,10 @@ footer{
 
 
 .container{
-  /*Your Code Here*/
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  grid-row-gap: 15px;
 }
 
 header{
@@ -98,6 +101,7 @@ header{
   color: white;
   height: 400px;                /* Parallax effect */
 
+  background-image: url("../images/header.jpg");
   /*Your Code Here*/
   /*Set background-image to header.jpg */
  
